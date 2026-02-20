@@ -28,7 +28,9 @@ export function ProjectModal({ project, onClose }: Props) {
         </div>
 
         <div className="modal-body">
-          <img className="modal-image" src={project.imageURL} alt={project.title} />
+          <video className="modal-video" controls autoPlay muted playsInline>
+            <source src={project.videoURL} type="video/mp4" />
+          </video>
 
           <h3>About</h3>
           <p>{project.description}</p>
