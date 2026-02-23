@@ -25,6 +25,16 @@ function App() {
       tools: ["Python", "EasyGA", "Sci-kit fuzzy"]
     },
     {
+      id: "Planeteer",
+      title: "PlaneTeer",
+      caption: "An AI Plant Disease Indentification Software",
+      imageURL: "images/DemoVideo.gif",
+      videoURL: "videos/DemoVideo.mp4",
+      description: "Agriculture is a race against time. For a farmer, a single off-looking leaf can signal the beginning of a field-wide outbreak. In the middle of a routine inspection, uncertainty becomes the greatest risk.  We built Planeteer to replace that uncertainty with instant, actionable intelligence.  Instead of waiting days for lab results, a farmer can snap a photo and receive: The specific plant disease classification, a transmission risk assessment for surrounding crops, clear and data-driven treatment recommendations. This project was built during a 48-hour hackathon by a team of five. The web application was developed using React.js (frontend) and Node.js (backend). We trained a custom computer vision model using YOLOv8 and OpenCV for plant disease detection, and integrated the OpenAI API to generate contextual treatment guidance and risk explanations.",
+      githubURL: "https://github.com/jayyy044/Planeteer_Agrobiotic_Disease_Detector",
+      tools: ["React.js", "Node.js", "YOLOv8", "OpenCV", "OpenAI API", "Python"]
+    },
+    {
       id: "emotilog",
       title: "EmotiLog",
       caption: "Easy to use mood tracking app",
